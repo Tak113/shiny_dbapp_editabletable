@@ -7,7 +7,32 @@
    git clone <this remote repositely>
    ```
 
-1. see config.yml. In local, use `default` while `shinyapp` in production at shinyapp.io
+1. Create `config.yml` file right under directoly setting up database environment
+   ```
+   #config.yml file
+   
+   #local environment (unix)
+   default:
+    dataconnection:
+     driver: "PostgreSQL Driver"
+     database: "postgres"
+     uid: "postgres"
+     pwd: "takawspostgres"
+     server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
+     port: 5432
+   
+   #remove environment (linux)
+   shinyapps:
+    dataconnection:
+     driver: "PostgreSQL"
+     database: "postgres"
+     uid: "postgres"
+     pwd: "takawspostgres"
+     server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
+     port: 5432
+   ```
+
+1. In local, use `default` while `shinyapp` in production at shinyapp.io
    ```
    # R script at app.R
    

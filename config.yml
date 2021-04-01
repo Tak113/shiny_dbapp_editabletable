@@ -1,0 +1,17 @@
+default:
+  dataconnection:
+    driver: "PostgreSQL Driver"
+    database: "postgres"
+    uid: "postgres"
+    pwd: "takawspostgres"
+    server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
+    port: 5432
+
+shinyapps:
+  dataconnection:
+    driver: "PostgreSQL"
+    database: "postgres"
+    uid: "postgres"
+    pwd: "takawspostgres"
+    server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
+    port: 5432

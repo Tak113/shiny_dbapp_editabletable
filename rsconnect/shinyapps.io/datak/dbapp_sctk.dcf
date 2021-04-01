@@ -1,0 +1,12 @@
+name: dbapp_sctk
+title: dbapp_sctk
+username:
+account: datak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3894867
+bundleId: 4418431
+url: https://datak.shinyapps.io/dbapp_sctk/
+when: 1617240426.18636
+asMultiple: FALSE
+asStatic: FALSE

@@ -17,7 +17,7 @@
      driver: "PostgreSQL Driver"
      database: "postgres"
      uid: "postgres"
-     pwd: "takawspostgres"
+     pwd: "xxxxxxxxx"
      server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
      port: 5432
    
@@ -27,7 +27,7 @@
      driver: "PostgreSQL"
      database: "postgres"
      uid: "postgres"
-     pwd: "takawspostgres"
+     pwd: "xxxxxxxxxx"
      server: "taktestdbinstance.ctu5c4ueoiyt.us-west-2.rds.amazonaws.com"
      port: 5432
    ```
